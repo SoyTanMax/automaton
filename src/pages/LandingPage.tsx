@@ -6,7 +6,7 @@ import { Page } from '../components/Page';
 export function LandingPage() {
   return (
     <Page>
-      <div className="container px-6 md:px-12 xl:px-22">
+      <div className="container flex px-6 md:px-12 xl:px-22">
         <div className="flex flex-col gap-8 items-center">
             <div className='flex flex-col gap-4 text-center xl:px-60'>
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold mb-2">

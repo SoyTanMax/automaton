@@ -9,8 +9,8 @@ export function NftItemPage() {
     const { item } = useNftItem(id);
 
     return (
-        <Page>
-            <div className="container py-36 px-6 md:px-12 xl:px-22 flex flex-col gap-6">
+        <Page itemsStart>
+            <div className="container py-6 px-6 md:px-12 xl:px-22 flex flex-col gap-6">
                 <div className='flex gap-4'>
                     <img 
                         src={item?.url ?? 'https://plus.unsplash.com/premium_photo-1683120972279-87efe2ba252f?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'} 
