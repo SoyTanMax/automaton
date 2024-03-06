@@ -1,5 +1,5 @@
 import React from 'react';
-import { collections } from '../../test/data/Collections';
+import { collections } from '../../test/data/collections';
 import { CollectionCard } from '../components/CollectionCard';
 import { Page } from '../components/Page';
 
