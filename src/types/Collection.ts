@@ -5,5 +5,7 @@ export type Collection = {
     floor?: string,
     volume?: string,
     description?: string,
-    nftItemIds?: string[]
+    nftItemIds?: string[],
+    topOffer?: string,
+    dayVolume?: string,
 }

@@ -4,4 +4,5 @@ export type NftItem = {
     itemName?: string,
     currentPrice?: string,
     owner?: string,
+    collectionId?: string,
 }
