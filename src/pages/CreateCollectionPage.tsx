@@ -8,7 +8,7 @@ import CodeEditor from '../components/CodeEditor';
 export function CreateCollectionPage() {
   const [showForm, setShowForm] = useState(false)
   return (
-    <Page itemsStart>
+    <Page itemsStart={!showForm}>
         <div className="flex flex-col gap-8 items-center w-full pt-8">
             {!showForm && (
               <>
