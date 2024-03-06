@@ -48,7 +48,7 @@ export function CollectionPage() {
 
     return (
         <Page itemsStart>
-            <div className="py-4 flex flex-col container">
+            <div className="py-8 flex flex-col container">
                 <img 
                     src={collection?.coverImage} 
                     className='w-full max-h-[250px] object-cover rounded-t-md'

@@ -8,8 +8,8 @@ import CodeEditor from '../components/CodeEditor';
 export function CreateCollectionPage() {
   const [showForm, setShowForm] = useState(false)
   return (
-    <Page>
-        <div className="flex flex-col gap-8 items-center w-full">
+    <Page itemsStart>
+        <div className="flex flex-col gap-8 items-center w-full pt-8">
             {!showForm && (
               <>
                 <div className='container flex items-center justify-between w-full'>
