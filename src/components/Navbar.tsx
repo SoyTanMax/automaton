@@ -8,7 +8,7 @@ export function Navbar() {
     }
 
     return (
-        <nav className="bg-black bg-opacity-25 backdrop-filter backdrop-blur-[3.5px] text-white absolute top-0 w-full">
+        <nav className="bg-black bg-opacity-25 backdrop-filter backdrop-blur-[3.5px] text-white absolute top-0 w-full z-10">
             <div className="max-w-none mx-auto px-4">
                 <div className="flex justify-between w-full">
                     <div className="flex space-x-4 justify-between w-full">
